@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eaedf2;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 12px 32px;
+}
+
+.container {
+  width: 1366px;
+}
+
+.header_container {
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 0 0;
+}
+.header_nav .logo {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.header_nav .logo .header_search_text {
+  color: #999;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 0.6em;
+}
+
+.header_icons {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.navigation_container .nav_items {
+  display: flex;
+  gap: 1rem;
+  display: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.navigation_container .nav_link {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  padding: 7px 14px;
+  width: 94px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d2d0d0;
+  background: #3c337d;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navigation_container .nav_link-pink {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  padding: 7px 14px;
+  width: 94px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d2d0d0;
+  background: #e72c79;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  padding: 33px 30px;
+  width: 80px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 0px 40px 40px 0px;
+  background: #5e4ae3;
+}/*# sourceMappingURL=main.css.map */
