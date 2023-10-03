@@ -114,6 +114,11 @@ button {
   line-height: normal;
 }
 
+.section_container {
+  display: flex;
+  gap: 3rem;
+}
+
 .section_icons {
   display: flex;
   flex-direction: column;
@@ -124,4 +129,98 @@ button {
   flex-shrink: 0;
   border-radius: 0px 40px 40px 0px;
   background: #5e4ae3;
+}
+
+.aside_chat {
+  border-radius: 10px;
+  background: #fff;
+  width: 291px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.input {
+  margin-bottom: 1rem;
+  padding: 13px;
+  width: 260px;
+  height: 46px;
+  border-radius: 5px;
+  border: 0;
+  background: #f2f2f2;
+  color: #999;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inputs {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_meeting {
+  width: 125px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #5e4ae3;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 13px 33px;
+}
+
+.input_schedule {
+  width: 125px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #eaedf2;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 13px 33px;
+}
+
+.aside_heading {
+  padding-bottom: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.aside_img {
+  position: relative;
+}
+
+.aside_group {
+  position: absolute;
+  top: 39.8%;
+  left: 10%;
+}
+
+.aside_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.aside_contacts {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
