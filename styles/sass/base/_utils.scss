@@ -99,24 +99,9 @@ y: block,
   }
 }
 
-@each $key, $color in $colors {
-  .text-#{$key} {
-    color: $color;
-  }
-  
-  .bg-#{$key} {
-    background-color: $color;
-  }
-  
-  .b-shadow-#{$key} {
-    box-shadow: 0 0 20px $color;
-  }
-  
-  .t-shadow-#{$key} {
-    text-shadow: 0 0 20px $color;
-  }
-}
-
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align:left;
 }

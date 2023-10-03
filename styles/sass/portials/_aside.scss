@@ -85,6 +85,18 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  position:relative;
+}
+.green {
+  width: 9px;
+  height: 9px;
+  border-radius:100%;
+  align-items:center;
+  position: absolute;
+  top: 86%;
+  margin-left: -80%;
+  background-color: #07A415;
+  border: 2px solid white;
 }
 
 .aside_contacts {
