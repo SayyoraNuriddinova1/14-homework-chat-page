@@ -1,0 +1,28 @@
+.section2-container {
+    width: 911px;
+    height: 716px;
+    border-radius: 10px;
+    background: #140E39;
+}
+.section2-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.section2-p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pre-title {
+    color: #5E4AE3;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
